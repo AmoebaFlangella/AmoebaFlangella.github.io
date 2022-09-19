@@ -12,3 +12,6 @@ p {
   color: hotpink;
   font-family: sans-serif;
 }
+img {
+ height: 120px; 
+}
