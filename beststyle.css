@@ -1,1 +1,14 @@
-
+body {
+  background-color: lightpink;
+}
+h1 {
+  color: deeppink;
+  font-family: monospace;
+  border-color: hotpink;
+  border-width: 3px;
+  border-style: double;
+}
+p {
+  color: hotpink;
+  font-family: sans-serif;
+}
