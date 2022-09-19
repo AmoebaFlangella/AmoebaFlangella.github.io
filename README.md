@@ -1,1 +1,0 @@
-# AmoebaFlangella.github.io
