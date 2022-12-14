@@ -1,0 +1,78 @@
+.links{
+    text-align: center;
+    font-size: 20px;
+}
+.box {
+    display: flex;
+    justify-content: space-between;
+    font-family:'Times New Roman';
+    font-size:larger;
+    text-align: center;
+  }
+body {
+    background-color: #ffc5df;
+}
+h3 {
+    text-align: center;
+    font-size: x-large;
+    font-family: Times;
+}
+h2 {
+    font-size:x-large;
+    text-align:center;
+    font-family:Times;
+}
+.header {
+    text-align: center;
+    padding: 20px;
+    font-size:xx-large;
+    font-family:Times;
+}
+.nav {
+    overflow: hidden;
+    float: center;
+    background-color: rgb(245, 105, 136);
+}
+.nav a {
+    font-size:x-large;
+    float: none;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-family:georgia;
+}
+.nav a:hover {
+    background-color: rgb(117, 117, 117);
+    color: rgb(182, 182, 182);
+    background-color: rgb(140, 0, 0);
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+.explanation {
+    grid-column: 1;
+    grid-row: 1 / 5;
+    font-size: larger;
+    text-align: center;
+}
+.video1 {
+    grid-column: 2;
+    grid-row: 1;
+}
+.video2 {
+    grid-column: 3;
+    grid-row: 1;
+}
+.video3{
+    grid-column: 2;
+    grid-row: 2;
+}
+.video4 {
+    grid-column: 3;
+    grid-row: 2;
+}
